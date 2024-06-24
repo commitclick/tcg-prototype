@@ -3,7 +3,7 @@
     {
       "name": "Ocean",
       "element": "Water",
-      "effect": "Non-water monsters destroyed at end of turn."
+      "effect": "Non-Water, Fish, or Flying monsters destroyed at end of turn."
     },
     {
       "name": "Forest",
@@ -11,9 +11,19 @@
       "effect": "Earth monsters gain 500 defense."
     },
     {
+      "name": "Swamp",
+      "element": "Earth",
+      "effect": "Double the ATK of Plant monsters. Water monsters are flipped face-down at end of turn."
+    },
+    {
+      "name": "Giant Arena",
+      "element": "Any",
+      "effect": "2-cost monsters cost 1 less."
+    },
+    {
       "name": "Cloning Factory",
       "element": "Any",
-      "effect": "Add a copy of cards played to your hand."
+      "effect": "Add a copy of cards played here to your hand."
     },
     {
       "name": "Fog of War",
@@ -57,6 +67,16 @@
         "species": "Warrior",
         "attack": 1600,
         "defense": 1200
+      }, 
+      {
+        "name": "Carnivorous Flytrap",
+        "element": "Earth",
+        "effect": "Monsters attacking this defense position card with <1800 ATK are destroyed. If this effect is activated, this card cannot attack during your next turn.",
+        "cost": "0",
+        "costType": "Blood",
+        "species": "Plant",
+        "attack": 900,
+        "defense": 1800
       },
       {
         "name": "Elf Swordsman",
@@ -67,6 +87,16 @@
         "species": "Warrior",
         "attack": 1400,
         "defense": 1400
+      },
+      {
+        "name": "Elf Priestess",
+        "element": "Earth",
+        "effect": "Grant Mystic Barrier to 1 monster",
+        "cost": 0,
+        "costType": "Blood",
+        "species": "Mage",
+        "attack": 0,
+        "defense": 1500
       },
       {
         "name": "Hydra",
@@ -94,6 +124,14 @@
         "effect": "Gain 500 ATK. When the equipped monster destroys a monster by battle, gain 1 Mana.",
         "cost": 1,
         "costType": "Blood",
+        "spellType": "Equipment"
+      },
+      {
+        "name": "Mystic Barrier",
+        "element": "Light",
+        "effect": "Shield monster for 1 attack. After combat, attacking monster loses 500 ATK.",
+        "cost": 1,
+        "costType": "Mana",
         "spellType": "Equipment"
       },
       {
