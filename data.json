@@ -16,9 +16,9 @@
       "effect": "Add a copy of cards played to your hand."
     },
     {
-      "name": "Darkness",
-      "element": "Dark",
-      "effect": "Dark monsters played here are hidden until attacked."
+      "name": "Fog of War",
+      "element": "Any",
+      "effect": "Monsters played here are hidden until attacked."
     },
     {
       "name": "Mana Spring",
@@ -41,7 +41,7 @@
       {
         "name": "Deep Sea Kraken",
         "element": "Water",
-        "effect": "Immune to enemy spells while in Ocean field.",
+        "effect": "On Summon: Move 1 enemy monster to this field.",
         "cost": 0,
         "costType": "Blood",
         "species": "Fish",
@@ -51,7 +51,7 @@
       {
         "name": "Atlantean Warrior",
         "element": "Water",
-        "effect": "Unaffected by opponent's spells while in Ocean field",
+        "effect": "Immune to enemy spells while in Ocean field.",
         "cost": "0",
         "costType": "Blood",
         "species": "Warrior",
@@ -66,7 +66,7 @@
         "costType": "Blood",
         "species": "Warrior",
         "attack": 1400,
-        "defense": 1200
+        "defense": 1400
       },
       {
         "name": "Hydra",
@@ -91,7 +91,7 @@
       {
         "name": "Soul Reaper",
         "element": "Dark",
-        "effect": "When the equipped monster destroys a monster by battle, gain 1 Mana.",
+        "effect": "Gain 500 ATK. When the equipped monster destroys a monster by battle, gain 1 Mana.",
         "cost": 1,
         "costType": "Blood",
         "spellType": "Equipment"
