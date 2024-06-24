@@ -1,8 +1,18 @@
 class Card:
-    def __init__(self, name: str, description: str, card_type: list, mana_cost: int):
+    def __init__(
+            self, name: str, 
+            description: str, 
+            species: list, 
+            cost: int, 
+            cost_type: int, # blood or mana 
+            attack: int, 
+            defence: int, 
+            element: str, 
+            effect: str
+            ):
         self._name = name
         self._description = description
-        self._card_type = type
+        self._card_type = card_type
         self._mana_cost = mana_cost
 
     @property

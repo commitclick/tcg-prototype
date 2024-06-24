@@ -7,11 +7,12 @@ dl = DataLoader(file_Path)
 dl.read_Json()
 
 while True:
-    print("Enter 1 to view, edit, and delete current fields")
-    print("Enter 2 to view, edit, and delete current monsters")
-    print("Enter 3 to view, edit, and delete current spells")
+    print()
+    print("Enter 1 to view current fields")
+    print("Enter 2 to view current monster cards")
+    print("Enter 3 to view current spell cards")
     print("Enter 4 to create a new field/card")
-    menuSelect = input("Enter 0 to save and exit\n")
+    menuSelect = input("Enter 0 to exit\n")
     print()
 
     if menuSelect == "0":

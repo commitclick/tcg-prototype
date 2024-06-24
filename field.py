@@ -1,8 +1,8 @@
 class Field:
-    def __init__(self, name: str, effect: str, description: str):
+    def __init__(self, name: str, element: str, effect: str):
         self._name = name
+        self._element = element
         self._effect = effect
-        self._description = description
 
     @property
     def name(self) -> str:
@@ -13,17 +13,17 @@ class Field:
         self._name = value
 
     @property
+    def element(self) -> str:
+        return self._element
+
+    @element.setter
+    def element(self, value: str):
+        self._element = value
+
+    @property
     def effect(self) -> str:
         return self._effect
 
     @effect.setter
     def effect(self, value: str):
         self._effect = value
-
-    @property
-    def description(self) -> str:
-        return self._description
-
-    @description.setter
-    def description(self, value: str):
-        self._description = value

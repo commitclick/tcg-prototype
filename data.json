@@ -57,6 +57,26 @@
         "species": "Warrior",
         "attack": 1600,
         "defense": 1200
+      },
+      {
+        "name": "Elf Swordsman",
+        "element": "Earth",
+        "effect": "Gain 500 ATK while in Forest field.",
+        "cost": 0,
+        "costType": "Blood",
+        "species": "Warrior",
+        "attack": 1400,
+        "defense": 1200
+      },
+      {
+        "name": "Hydra",
+        "element": "Fire",
+        "effect": "Summon 2 Hydra Head tokens to adjacent locations (Fire/Dragon/0 cost/1000 atk/0 def).",
+        "cost": 1,
+        "costType": "Blood",
+        "species": "Dragon",
+        "attack": 2000,
+        "defense": 1600
       }
     ],
     "spells": [
@@ -69,12 +89,28 @@
         "spellType": "Equipment"
       },
       {
-        "name": "Test",
-        "element": "Test",
-        "effect": "test",
+        "name": "Soul Reaper",
+        "element": "Dark",
+        "effect": "When the equipped monster destroys a monster by battle, gain 1 Mana.",
         "cost": 1,
         "costType": "Blood",
-        "spellType": "Test"
+        "spellType": "Equipment"
+      },
+      {
+        "name": "Reroll",
+        "element": "Dark",
+        "effect": "Discard your hand (min. 1 card), then draw 5 cards.",
+        "cost": 2,
+        "costType": "Mana",
+        "spellType": "Legend"
+      },
+      {
+        "name": "Flood",
+        "element": "Water",
+        "effect": "Change 1 location to Ocean",
+        "cost": 3,
+        "costType": "Mana",
+        "spellType": "Legend"
       }
     ]
   }
