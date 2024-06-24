@@ -38,22 +38,22 @@ while True:
 
         new_Object = {}
 
-        new_Object["name"] = input("Enter a name: ")
-        new_Object["element"] = input("Enter an element: ")
+        new_Object["name"] = input("Enter a name: ").title()
+        new_Object["element"] = input("Enter an element: ").capitalize()
         new_Object["effect"] = input("Enter an effect: ")
 
         if cardMenuSelect == "1":
             dl.append_Json(new_Object, ["fields"])
         else:
             new_Object["cost"] = int(input("Enter the cost: "))
-            new_Object["costType"] = input("Enter the cost type (blood/mana): ")
+            new_Object["costType"] = input("Enter the cost type (blood/mana): ").capitalize()
 
             if cardMenuSelect == "2":
-                new_Object["spellType"] = input("Enter a spell type (equipment, legend, etc.): ")
+                new_Object["spellType"] = input("Enter a spell type (equipment, legend, etc.): ").capitalize()
                 dl.append_Json(new_Object, ["cards", "spells"])
 
             elif cardMenuSelect == "3":
-                new_Object["species"] = input("Enter the species: ")
+                new_Object["species"] = input("Enter the species: ").capitalize()
                 new_Object["attack"] = int(input("Enter the attack value: "))
                 new_Object["defense"] = int(input("Enter the defense value: "))
                 dl.append_Json(new_Object, ["cards", "monsters"])

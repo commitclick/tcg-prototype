@@ -31,42 +31,50 @@
       {
         "name": "Chainsaw Imp",
         "element": "Dark",
-        "species": "Fiend",
+        "effect": "Gains 200 ATK for each Spirit on your opponent's side of the field. This card can attack all Spirits your opponent controls once each.",
         "cost": 0,
-        "costElement": "Blood",
+        "costType": "Blood",
+        "species": "Fiend",
         "attack": 1200,
-        "defense": 100,
-        "effect": "Gains 200 ATK for each Spirit on your opponent's side of the field. This card can attack all Spirits your opponent controls once each."
+        "defense": 100
       },
       {
         "name": "Deep Sea Kraken",
         "element": "Water",
-        "species": "Fish",
+        "effect": "Immune to enemy spells while in Ocean field.",
         "cost": 0,
-        "costElement": "Blood",
+        "costType": "Blood",
+        "species": "Fish",
         "attack": 1400,
-        "defense": 800,
-        "effect": "Immune to enemy spells while in Ocean field."
+        "defense": 800
       },
       {
         "name": "Atlantean Warrior",
         "element": "Water",
-        "species": "warrior",
+        "effect": "Unaffected by opponent's spells while in Ocean field",
         "cost": "0",
         "costType": "Blood",
+        "species": "Warrior",
         "attack": 1600,
-        "defense": 1200,
-        "effect": "Unaffected by opponent's spells while in Ocean field"
+        "defense": 1200
       }
     ],
     "spells": [
       {
         "name": "Element Blade",
         "element": "Light",
-        "spellType": "Equipment",
+        "effect": "Change the equipped monster's attribute to one of your choice.",
         "cost": 2,
-        "costElement": "Mana",
-        "description": "Change the equipped monster's attribute to one of your choice."
+        "costType": "Mana",
+        "spellType": "Equipment"
+      },
+      {
+        "name": "Test",
+        "element": "Test",
+        "effect": "test",
+        "cost": 1,
+        "costType": "Blood",
+        "spellType": "Test"
       }
     ]
   }
