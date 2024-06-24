@@ -1,0 +1,73 @@
+{
+  "fields": [
+    {
+      "name": "Ocean",
+      "element": "Water",
+      "effect": "Non-water monsters destroyed at end of turn."
+    },
+    {
+      "name": "Forest",
+      "element": "Earth",
+      "effect": "Earth monsters gain 500 defense."
+    },
+    {
+      "name": "Cloning Factory",
+      "element": "Any",
+      "effect": "Add a copy of cards played to your hand."
+    },
+    {
+      "name": "Darkness",
+      "element": "Dark",
+      "effect": "Dark monsters played here are hidden until attacked."
+    },
+    {
+      "name": "Mana Spring",
+      "element": "Any",
+      "effect": "Gain 1 mana per turn if field is empty."
+    }
+  ],
+  "cards": {
+    "monsters": [
+      {
+        "name": "Chainsaw Imp",
+        "element": "Dark",
+        "species": "Fiend",
+        "cost": 0,
+        "costElement": "Blood",
+        "attack": 1200,
+        "defense": 100,
+        "effect": "Gains 200 ATK for each Spirit on your opponent's side of the field. This card can attack all Spirits your opponent controls once each."
+      },
+      {
+        "name": "Deep Sea Kraken",
+        "element": "Water",
+        "species": "Fish",
+        "cost": 0,
+        "costElement": "Blood",
+        "attack": 1400,
+        "defense": 800,
+        "effect": "Immune to enemy spells while in Ocean field."
+      },
+      {
+        "name": "Atlantean Warrior",
+        "element": "Water",
+        "species": "warrior",
+        "cost": "0",
+        "costType": "Blood",
+        "attack": 1600,
+        "defense": 1200,
+        "effect": "Unaffected by opponent's spells while in Ocean field"
+      }
+    ],
+    "spells": [
+      {
+        "name": "Element Blade",
+        "element": "Light",
+        "spellType": "Equipment",
+        "cost": 2,
+        "costElement": "Mana",
+        "description": "Change the equipped monster's attribute to one of your choice."
+      }
+    ]
+  }
+}
